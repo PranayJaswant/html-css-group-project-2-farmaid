@@ -7,3 +7,10 @@ body {
     text-align: center;
     padding: 50px 20px;
 }
+.info-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
