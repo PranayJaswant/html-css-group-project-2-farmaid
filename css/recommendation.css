@@ -1,3 +1,9 @@
-.body{
-    color: lightseagreen;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e8f5e9, #f1f8e9);
+}
+.top-info {
+    text-align: center;
+    padding: 50px 20px;
 }
