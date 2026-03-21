@@ -38,6 +38,13 @@ body {
     text-align: center;
     margin: 30px;
 }
+.next-section a {
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #1b5e20, #4caf50);
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
 
 
 
