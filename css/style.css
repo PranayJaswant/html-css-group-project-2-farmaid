@@ -207,3 +207,79 @@ margin-left: 50px;
     font-size: 32px;
     font-family: 'poppins',sans-serif;
 }
+.recommendations-preview {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.recommendation-card {
+    background-color: #e3f2fd; /* Light Blue background like image */
+    border-radius: 15px;
+    padding: 45px 60px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Icon/Text left mein, Button right mein */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.rec-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rec-icon {
+    font-size: 40px;
+    color: #2e7d32; /* Green icon color */
+    
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.rec-text h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.rec-text p {
+    font-size: 14px;
+    color: #666;
+    max-width: 400px;
+}
+.rcom-prewi-heading{
+    font-family: 'poppins',sans-serif;
+    padding-bottom: 10px;
+
+}
+
+/* Button Styling */
+.view-btn {
+    background-color: #1976d2; /* Main Blue color */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: #1565c0;
+}
+
+/* Mobile ke liye settings */
+@media (max-width: 768px) {
+    .recommendation-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .rec-left {
+        flex-direction: column;
+    }
+}
