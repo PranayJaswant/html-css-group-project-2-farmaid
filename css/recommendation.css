@@ -1,50 +1,146 @@
+
+
+
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #d4fc79, #96e6a1);
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#d4fc79,#96e6a1);
 }
-.issue-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+header {
+    text-align: center;
     padding: 30px;
-    gap: 20px;
 }
-.issue-card {
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-title img {
+    width: 45px;
+}
+.intro {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
     background: white;
+}
+
+.intro-text {
+    width: 55%;
+}
+
+.intro-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.intro-title img {
+    width: 35px;
+}
+
+.intro-img {
+    width: 45%;
+}
+
+.intro-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-list {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.issue-card {
+    background-color: #FFFAEC;
     border-radius: 15px;
-    height: 200px;
-    padding: 10px;
-    transition: 0.3s;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    overflow: hidden;
+    height: 380px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-.icon {
-    text-align: center;
-    font-size: 20px;
-    margin-top: 15px;
-    color: #2e7d32;
+
+.issue-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
 }
+
 .content {
-    padding: 10px;
+    padding: 15px;
 }
-.content h2 {
-    color: #1b5e20;
-    font-size: 20px;
+.table-section {
+    padding: 40px;
+    background: white;
 }
-.content p {
-    font-size: 15px;
-    margin: 4px 0;
-}
-.next-section {
+
+.table-section h2 {
     text-align: center;
-    margin: 30px;
+    margin-bottom: 20px;
 }
-.next-section a {
-    padding: 12px 25px;
-    background: linear-gradient(135deg, #1b5e20, #4caf50);
-    color: white;
-    border-radius: 25px;
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table img {
+    width: 30px;
+}
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.nav-buttons a {
+    padding: 10px 25px;
+    border-radius: 30px;
     text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #11998e, #38ef7d);
 }
 
+@media(max-width:1000px) {
+    .intro {
+        flex-direction: column;
+    }
 
+    .intro-text,
+    .intro-img {
+        width: 100%;
+    }
 
+    .card-list {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:600px) {
+    .card-list {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .issue-card {
+        height: auto;
+    }
+}

@@ -2,8 +2,99 @@
 <html>
 <head>
         <title>Login/sign up</title>
+        <link rel="stylesheet" href="../css/signup.css">
+        <link rel="stylesheet" href="../css/footer.css">
 </head>
-<body>
-    <h1>Login/sign up</h1>
+<body><div class="main-container">
+        <div class="lmg-contanair"><img src="../images/logo-icon.png" alt="logo" class="main-logo-img">
+
+            <span class="farm">Farm</span><span class="aid">aid</span>
+        </div>
+        <div class="nav-menu">
+            <a href="../index.html" class="menu">Home</a>
+            <a href="./about.html" class="menu">About</a>
+            <a href="./farmissue.html" class="menu">Farm Issues</a>
+            <a href="./recommendation.html" class="menu">Recommendations</a>
+            <a href="./weather.html" class="menu">Weather</a>
+            <a href="./expert.html" class="menu">Experts</a>
+            <a href="./contact.html" class="menu">Contact</a>
+            <a href="./login.html" class="menu"><span class="lgin">Login</span></a>
+        </div>
+        </div>
+    <div class="main-wrapper">
+        <div class="split-main-card">
+            <div class="main-sectionlogin-side">
+                <div class="section-header">
+                    <h2>Log in to our site</h2>
+                    <p>Enter email and password to log on:</p>
+                    <div class="img-header-login"><img src="../images/signup.png" height="48px" width="48px" ></div>
+                </div>
+                <div class="section-body">
+                    <form>
+                        <input type="email" placeholder="Email..." required>
+                        <input type="password" placeholder="Password..." required>
+                        <button type="submit" class="btn-primary">Sign in!</button> 
+                    </form>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="main-sectionsignin-side">
+                <div class="section-header">
+                    <h2>Sign up now</h2>
+                    <p>Fill in the form below to get instant access:</p>
+                    <div class="img-header-signup">
+                    <img src="../images/google-icon.png">
+                    <img src="../images/twitter-icon.png">
+                    <img src="../images/facebook-icon.png">
+                    </div>
+                </div>
+                <div class="section-body">
+                    <form>
+                        <input type="text" placeholder="Full Name..." required>
+                        <input type="email" placeholder="Email..." required>
+                        <select required>
+                            <option value="" disabled selected>Select Role(Farmer/Expert)...</option>
+                            <option value="farmer">Farmer</option>
+                            <option value="expert">Expert</option>
+                        </select>
+                        <textarea placeholder="Tell us about your farm/expertise..." rows="3"></textarea>
+                        <button type="submit" class="btn-primary">Sign me up!</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-section-1">
+        <div class="logo-container">
+            <img src="../images/logo-icon.png" alt="logo" height="50px">
+            <b class="project-name">FarmAid</b>
+        </div>
+
+        <span>
+            FarmAid is a smart agriculture platform designed to help farmers solve crop issues,
+            get expert recommendations, and improve  modern technology.
+        </span>
+
+        <div class="social-icon-container">
+
+            <a href="#" target="_blank">
+                <img src="../images/youtube.png" class="social-icon">
+            </a>
+
+            <a href="#" target="_blank">
+                <img src="../images/instagram.png" class="social-icon">
+            </a>
+
+            <a href="#" target="_blank">
+                <img src="../images/twitter.png" class="social-icon">
+            </a>
+
+            <a href="#" target="_blank">
+                <img src="../images/whatsapp.png" class="social-icon">
+            </a>
+
+        </div>
+    </div>        
 </body>
 </html>
