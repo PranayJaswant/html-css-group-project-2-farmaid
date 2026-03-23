@@ -74,6 +74,3 @@ If you like this project, give it a ⭐ on GitHub.
 
 ---
 
-## 📜 License
-
-This project is open source and free to use.
