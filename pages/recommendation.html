@@ -1,109 +1,191 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Smart Recommendations</title>
+    <title>Recommendation</title>
+
+   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./../css/recommendation.css">
     <link rel="stylesheet" href="./../css/navbar.css">
-
 </head>
-<body>
-    <div class="main-container">
-        <div class="lmg-contanair"><img src="./../images/logo-icon.png" alt="logo" 
-            class="main-logo-img">
 
+<body>
+
+    <div class="main-container">
+        <div class="lmg-contanair">
+            <img src="../images/logo-icon." class="main-logo-img">
             <span class="farm">Farm</span><span class="aid">aid</span>
         </div>
+
         <div class="nav-menu">
-            <a href="./index.html" class="menu">Home</a>
-            <a href="./about.html" class="menu">About</a>
-            <a href="./farmissue.html" class="menu">Farm Issues</a>
-            <a href="./recommendation.html" class="menu">Recommendations</a>
-            <a href="./weather.html" class="menu">Weather</a>
-            <a href="./expert.html"class="menu">Experts</a>
-            <a href="./contact.html" class="menu">Contact</a>
-
-            <a href="./contact.html"class="menu" ><span class="lgin">Login</span></a>
-
+            <a href="../index.html" class="menu">Home</a>
+            <a href="../pages/about.html" class="menu">About</a>
+            <a href="../pages/farmissue.html" class="menu">Farm Issues</a>
+            <a href="../pages/recommendation.html" class="menu">Recommendations</a>
+            <a href="../pages/weather.html" class="menu">Weather</a>
+            <a href="../pages/expert.html" class="menu">Experts</a>
+            <a href="../pages/contact.html" class="menu">Contact</a>
         </div>
     </div>
+    <header>
+        <div class="header-title">
+            <img src="">
+            <h1>Farming Recommendations</h1>
+        </div>
+        <p>Smart solutions for fertilizers and pest control to improve crop productivity</p>
+    </header>
+    <section class="intro">
+        <div class="intro-text">
+            <div class="intro-title">
+                <img src="./../images/smartfarming.jpg">
+                <h2>Why Smart Farming?</h2>
+            </div>
 
-    <div class="main">
+            <p><b>Smart farming helps farmers increase production and reduce losses.</b></p>
 
-    <h1>Smart Recommendations for Your Farm</h1>
-    <p class="subtitle">Based on conditions, we suggest crops, fertilizers, 
-        and care tips.</p>
-
-    <h3>Soil Summary</h3>
-    <div class="grid small">
-        <div class="box"><i class="fas fa-vial"></i><p>pH Level<br><b>6.8</b></p></div>
-        <div class="box"><i class="fas fa-leaf"></i><p>Nitrogen<br><b>Low</b></p></div>
-        <div class="box"><i class="fas fa-tint"></i><p>Moisture<br><b>Moderate</b></p></div>
-        <div class="box"><i class="fas fa-seedling"></i><p>Soil Health<br><b>Good</b></p></div>
-    </div>
-
-    <h3>Recommended Crop</h3>
-    <div class="grid">
-
-        <div class="card">
-            <i class="fas fa-wheat-awn icon"></i>
-            <h4>Wheat</h4>
-            <p>current soil moisture and temperature</p>
-            <button>View Details</button>
+            <ul>
+                <li>Improves soil fertility</li>
+                <li>Controls pests effectively</li>
+                <li>Increases crop yield</li>
+                <li>Reduces cost of farming</li>
+                <li>Uses modern irrigation methods</li>
+            </ul>
         </div>
 
-        <div class="card">
-            <i class="fas fa-seedling icon"></i>
-            <h4>Rice</h4>
-            <p>Best for moderate water conditions</p>
-            <button>View Details</button>
+        <div class="intro-img">
+            <img src="./../images/smartfarming.jpg">
+        </div>
+    </section>
+    <section class="card-list">
+
+        <div class="issue-card">
+            <img src="./../images/urea.jpg">
+            <div class="content">
+                <h2>Urea</h2>
+                <p>Nitrogen fertilizer for fast growth</p>
+            </div>
         </div>
 
-        <div class="card">
-            <i class="fas fa-leaf icon"></i>
-            <h4>Cotton</h4>
-            <p>Grows well in warm climates</p>
-            <button>View Details</button>
+        <div class="issue-card">
+            <img src="./../images/dap.jpg">
+            <div class="content">
+                <h2>DAP</h2>
+                <p>Boosts root development</p>
+            </div>
         </div>
 
-    </div>
-    <h3>Recommended Fertilizer</h3>
-    <div class="grid">
-
-        <div class="card">
-            <i class="fas fa-bag-shopping icon"></i>
-            <h4>NPK</h4>
-            <p>Improves nitrogen deficiency</p>
-            <p>₹450 / bag</p>
-            <button class="buy">Apply / Buy</button>
+        <div class="issue-card">
+            <img src="./../images/neemspray.webp">
+            <div class="content">
+                <h2>Neem Spray</h2>
+                <p>Natural pest control solution</p>
+            </div>
         </div>
 
-        <div class="card">
-            <i class="fas fa-flask icon"></i>
-            <h4>Urea</h4>
-            <p>Boosts nitrogen level</p>
-            <p>₹450 / bag</p>
-            <button class="buy">Apply / Buy</button>
+        <div class="issue-card">
+            <img src="./../images/insecticide.webp">
+            <div class="content">
+                <h2>Insecticide</h2>
+                <p>Protect crops from insects</p>
+            </div>
         </div>
 
-    </div>
-    <h3>Why These Recommendations</h3>
-    <div class="grid small">
-        <div class="box"><i class="fas fa-seedling"></i><p>Based on Soil</p></div>
-        <div class="box"><i class="fas fa-tint"></i><p>Based on Moisture</p></div>
-        <div class="box"><i class="fas fa-cloud-sun"></i><p>Based on Weather</p></div>
+        <div class="issue-card">
+            <img src="./../images/vermicompost.jpg">
+            <div class="content">
+                <h2>Vermicompost</h2>
+                <p>Improves soil quality</p>
+            </div>
+        </div>
+
+        <div class="issue-card">
+            <img src="./../images/dripirrigation.jpg">
+            <div class="content">
+                <h2>Drip Irrigation</h2>
+                <p>Efficient water usage</p>
+            </div>
+        </div>
+
+        <div class="issue-card">
+            <img src="./../images/soiltesting.png">
+            <div class="content">
+                <h2>Soil Testing</h2>
+                <p>Check soil nutrients</p>
+            </div>
+        </div>
+
+        <div class="issue-card">
+            <img src="./../images/weedcontrol.jpeg">
+                        <div class="content">
+                <h2>Weed Control</h2>
+                <p>Removes unwanted plants</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="table-section">
+
+        <h2>Detailed Usage Guide</h2>
+
+        <table>
+            <tr>
+                <th>Icon</th>
+                <th>Type</th>
+                <th>How to Use</th>
+                <th>Benefits</th>
+            </tr>
+
+            <tr>
+                <td><img src="../images/fertilizer-icon.png"></td>
+                <td>Urea</td>
+                <td>Apply during early growth stage</td>
+                <td>Boosts leaf growth</td>
+            </tr>
+
+            <tr>
+                <td><img src="../images/fertilizer-icon.png"></td>
+                <td>DAP</td>
+                <td>Use at sowing time</td>
+                <td>Strong root development</td>
+            </tr>
+
+            <tr>
+                <td><img src="../images/pest-icon.png"></td>
+                <td>Neem Spray</td>
+                <td>Spray weekly on crops</td>
+                <td>Eco-friendly pest control</td>
+            </tr>
+
+            <tr>
+                <td><img src="../images/pest-icon.png"></td>
+                <td>Insecticide</td>
+                <td>Spray carefully as needed</td>
+                <td>Fast pest removal</td>
+            </tr>
+
+            <tr>
+                <td><img src="../images/soil-icon.png"></td>
+                <td>Vermicompost</td>
+                <td>Mix with soil before planting</td>
+                <td>Improves soil health</td>
+            </tr>
+
+            <tr>
+                <td><img src="../images/water-icon.png"></td>
+                <td>Drip Irrigation</td>
+                <td>Install drip system</td>
+                <td>Saves water</td>
+            </tr>
+
+        </table>
+
+    </section>
+    <div class="nav-buttons">
+        <a href="../pages/farmissue.html">← Farm Issues</a>
+        <a href="../pages/expert.html">Experts →</a>
     </div>
 
-    <h3>Seasonal Tips</h3>
-    <div class="grid small">
-        <div class="box"><i class="fas fa-clock"></i><p>Water crops early morning</p></div>
-        <div class="box"><i class="fas fa-cloud-rain"></i><p>Avoid spraying before rain</p></div>
-        <div class="box"><i class="fas fa-chart-line"></i><p>Monitor soil regularly</p></div>
-    </div>
-
-    <button class="main-btn">Get Expert Advice</button>
-    
-
-</div>
-    
 </body>
 </html>
