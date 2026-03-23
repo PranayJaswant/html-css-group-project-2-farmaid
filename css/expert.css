@@ -499,9 +499,8 @@ body {
     }
 
     .consult-info {
-        margin-left: 0;
+        margin-left: 2;
         width: 90%;
         text-align: center;
     }
 }
-
