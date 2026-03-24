@@ -1,73 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>Login/sign up</title>
-        <link rel="stylesheet" href="../css/signup.css">
-        <link rel="stylesheet" href="../css/footer.css">
-</head>
-<body><div class="main-container">
-        <div class="lmg-contanair"><img src="../images/logo-icon.png" alt="logo" class="main-logo-img">
+    <title>Login - Farmaid</title>
 
+    <link rel="stylesheet" href="./../css/navbar.css">
+    <link rel="stylesheet" href="./../css/footer.css">
+    <link rel="stylesheet" href="./../css/login.css">
+</head>
+<body>
+
+<div class="main-container">
+        <div class="lmg-contanair">
+            <img src="../images/logo-icon.png" class="main-logo-img">
             <span class="farm">Farm</span><span class="aid">aid</span>
         </div>
+
         <div class="nav-menu">
             <a href="../index.html" class="menu">Home</a>
-            <a href="./about.html" class="menu">About</a>
-            <a href="./farmissue.html" class="menu">Farm Issues</a>
-            <a href="./recommendation.html" class="menu">Recommendations</a>
-            <a href="./weather.html" class="menu">Weather</a>
-            <a href="./expert.html" class="menu">Experts</a>
-            <a href="./contact.html" class="menu">Contact</a>
-            <a href="./login.html" class="menu"><span class="lgin">Login</span></a>
-        </div>
-        </div>
-    <div class="main-wrapper">
-        <div class="split-main-card">
-            <div class="main-sectionlogin-side">
-                <div class="section-header">
-                    <h2>Log in to our site</h2>
-                    <p>Enter email and password to log on:</p>
-                    <div class="img-header-login"><img src="../images/signup.png" height="48px" width="48px" ></div>
-                </div>
-                <div class="section-body">
-                    <form>
-                        <input type="email" placeholder="Email..." required>
-                        <input type="password" placeholder="Password..." required>
-                        <button type="submit" class="btn-primary">Sign in!</button> 
-                    </form>
-                </div>
-            </div>
-            <div class="divider"></div>
-            <div class="main-sectionsignin-side">
-                <div class="section-header">
-                    <h2>Sign up now</h2>
-                    <p>Fill in the form below to get instant access:</p>
-                    <div class="img-header-signup">
-                    <img src="../images/google-icon.png">
-                    <img src="../images/twitter-icon.png">
-                    <img src="../images/facebook-icon.png">
-                    </div>
-                </div>
-                <div class="section-body">
-                    <form>
-                        <input type="text" placeholder="Full Name..." required>
-                        <input type="email" placeholder="Email..." required>
-                        <select required>
-                            <option value="" disabled selected>Select Role(Farmer/Expert)...</option>
-                            <option value="farmer">Farmer</option>
-                            <option value="expert">Expert</option>
-                        </select>
-                        <textarea placeholder="Tell us about your farm/expertise..." rows="3"></textarea>
-                        <button type="submit" class="btn-primary">Sign me up!</button>
-                    </form>
-                </div>
-            </div>
-
+            <a href="../pages/about.html" class="menu">About</a>
+            <a href="../pages/farmissue.html" class="menu">Farm Issues</a>
+            <a href="../pages/recommendation.html" class="menu">Recommendations</a>
+            <a href="../pages/expert.html" class="menu">Experts</a>
+            <a href="../pages/contact.html" class="menu">Contact</a>
+            <a href="./../pages/login.html" class="menu">Login</a>
+            <a href="./../pages/singup.html" class="menu">Sign Up</a>
+     
         </div>
     </div>
+
+    
+
+<!-- LOGIN SECTION -->
+<div class="login-container">
+
+    <div class="login-box">
+        <h2>Welcome Back 👋</h2>
+        <p>Login to continue your smart farming journey</p>
+
+        <form>
+            <input type="email" placeholder="Enter Email" required>
+            <input type="password" placeholder="Enter Password" required>
+
+            <button type="submit">Login</button>
+
+            <p class="extra">
+                Don't have an account? <a href="#">Register</a>
+            </p>
+        </form>
+    </div>
+
+</div>
+
+
+<!-- FOOTER START -->
+<div class="footer-container">
+
+    <!-- SECTION 1 -->
     <div class="footer-section-1">
         <div class="logo-container">
-            <img src="../images/logo-icon.png" alt="logo" height="50px">
+            <img src="./../images/logo-icon.png" alt="logo" height="50px">
             <b class="project-name">FarmAid</b>
         </div>
 
@@ -79,7 +70,7 @@
         <div class="social-icon-container">
 
             <a href="#" target="_blank">
-                <img src="../images/youtube.png" class="social-icon">
+                <img src="./../images/youtube.png" class="social-icon">
             </a>
 
             <a href="#" target="_blank">
@@ -95,6 +86,67 @@
             </a>
 
         </div>
-    </div>        
+    </div>
+
+    <!-- SECTION 2 -->
+    <div class="footer-section-2">
+        <b class="project-name">Quick Links</b>
+
+        <ul>
+            <li><a href="../index.html" class="menu-subitem">Home</a></li>
+            <li><a href="../pages/about.html" class="menu-subitem">About</a></li>
+            <li><a href="../pages/farmissue.html" class="menu-subitem">Farm Issues</a></li>
+            <li><a href="../pages/recommendation.html" class="menu-subitem">Recommendation</a></li>
+            <li><a href="../pages/contact.html" class="menu-subitem">Contact</a></li>
+            <li><a href="../pages/login.html" class="menu-subitem">Login</a></li>
+            <li><a href="../pages/signup.html" class="menu-subitem">Signup</a></li>
+        </ul>
+    </div>
+
+    <!-- SECTION 3 -->
+    <div class="footer-section-3">
+        <b class="project-name">Features</b>
+
+        <ul>
+            <li>Crop Disease Detection</li>
+            <li>Expert Farming Advice</li>
+            <li>Weather-based Recommendations</li>
+            <li>Soil & Crop Analysis</li>
+            <li>Modern Smart Farming Tools</li>
+        </ul>
+    </div>
+
+    <!-- SECTION 4 -->
+    <div class="footer-section-4">
+        <b class="project-name">Contact</b>
+
+        <div class="contact-item">
+            <img src="./../images/map.png" height="20px">
+            <a href="#" class="menu-subitem">
+                Maharashtra, India
+            </a>
+        </div>
+
+        <div class="contact-item">
+            <img src="./../images/call.png" height="20px">
+            <a href="tel:+919876543210" class="menu-subitem">
+                +91 9876543210
+            </a>
+        </div>
+
+        <div class="contact-item">
+            <img src="./../images/gmail.png" height="20px">
+            <a href="mailto:farmaid@gmail.com" class="menu-subitem">
+                farmaid@gmail.com
+            </a>
+        </div>
+
+    </div>
+
+</div>
+<!-- FOOTER END -->
+
+
+
 </body>
 </html>

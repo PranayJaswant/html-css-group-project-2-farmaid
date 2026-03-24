@@ -1,84 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Contact Experts
-        </title>
-        <link rel="stylesheet" href="../css/contact.css">
-        <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="./../css/navbar.css">
-    </head>
-    <body>
-        <div class="main-container">
-        <div class="lmg-contanair"><img src="../images/logo-icon.png" alt="logo" class="main-logo-img">
+    
+<head>
+    
+    <title>Signup</title>
+    <link rel="stylesheet" href="./../css/singup.css">
+    <link rel="stylesheet" href="./../css/footer.css">
+    <link rel="stylesheet" href="./../css/navbar.css">
 
+
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="lmg-contanair">
+            <img src="../images/logo-icon.png" class="main-logo-img">
             <span class="farm">Farm</span><span class="aid">aid</span>
         </div>
+
         <div class="nav-menu">
             <a href="../index.html" class="menu">Home</a>
-            <a href="./about.html" class="menu">About</a>
-            <a href="./farmissue.html" class="menu">Farm Issues</a>
-            <a href="./recommendation.html" class="menu">Recommendations</a>
-            <a href="./weather.html" class="menu">Weather</a>
-            <a href="./expert.html" class="menu">Experts</a>
-            <a href="./contact.html" class="menu">Contact</a>
+            <a href="../pages/about.html" class="menu">About</a>
+            <a href="../pages/farmissue.html" class="menu">Farm Issues</a>
+            <a href="../pages/recommendation.html" class="menu">Recommendations</a>
+            <a href="../pages/expert.html" class="menu">Experts</a>
+            <a href="../pages/contact.html" class="menu">Contact</a>
             <a href="./../pages/login.html" class="menu">Login</a>
             <a href="./../pages/singup.html" class="menu">Sign Up</a>
      
         </div>
-        </div>
-           <div class="main-card">
+    </div>
 
-       
-        <div class="card-left">
-            <img src="../images/contact us.jpeg">
-        </div>
+    
+ <div class="wrapper">
+        <div class="container">
 
-        <div class="card-right">
 
-            <div>
-                <h2>Contact Us</h2>
+            <div class="left-card">
+                <img src="../images/welcome-singup.jpg" class="avatar" />
+                <i>
+                    <h2>Welcome!!!</h2>
+                </i>
+                <p>Enter Your Personal Details and start your journey with us!!!</p>
+
+            </div>
+
+
+
+
+            <div class="card">
+                <h2 class="title">Create your account</h2>
+
+                <div class="social-row">
+                    <button class="social-btn">
+                        <a href="mailto:akshatadawange86@gmail.com" target="_blank" class="google-link">
+                            <img src="../images/google-icon.png" class="icon"> Google
+                    </button>
+                    </a>
+                    <button class="social-btn">
+                        <a href="https://github.com/Akshata05Dawange" target="_blank" class="github-link">
+                            <img src="../images/github.png" class="icon"> Github
+                    </button>
+                    </a>
+                </div>
+
+
+                <p class="or">OR</p>
+
 
                 <form>
+                    <div class="name-group">
 
-                    <div class="name-box">
                         <input type="text" placeholder="First Name" required>
                         <input type="text" placeholder="Last Name" required>
                     </div>
 
+                    <input type="text" placeholder="Username" required>
                     <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
 
-                    <input type="file">
+                    <p class="terms">Minimum length is 8 characters.</p>
+                    <button type="submit" class="signup-btn">
+                        <a href="../index.html" target="_blank" class="github-link">
+                            <span>Signup</span>
+                            <img src="../images/signup.png" class="signup-icon">
+                    </button>
+                    </a>
 
-                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <p class="terms">
+                        By creating an account, you agree to the
+                        <a href="">Terms of Service</a>.
+                    </p>
 
-                    <button type="submit">Submit</button>
+                    <p class="login-link">
+                        Already have an account? <a href="../pages/login.html">Login</a>
+                    </p>
 
                 </form>
             </div>
-
-            <p class="mail">
-                <img src="../images/email-icon.png" class="icon">
-                <a href="mailto:farmaid@gmail.com">farmaid@gmail.com</a>
-            </p>
-
-            <div class="social">
-                <img src="../images/facebook-icon.png">
-                <img src="../images/instagram-icon.png">
-                <img src="../images/whatsapp-icon.png">
-            </div>
-
-           
-            <div class="map">
-                <iframe src="https://maps.google.com/maps?q=maharashtra&output=embed"></iframe>
-            </div>
-
         </div>
-
-    </div> 
-    
-    
-    <!-- FOOTER START -->
+ </div>       
+            
+ <!-- FOOTER START -->
 <div class="footer-container">
 
     <!-- SECTION 1 -->
@@ -173,7 +197,10 @@
 <!-- FOOTER END -->
 
 
-    
-             
-    </body>
+  
+
+</body>
 </html>
+
+
+
