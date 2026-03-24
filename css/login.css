@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #d4fc79, #96e6a1);
+    background: lightgreen;
 }
 
 /* LOGIN CONTAINER */
@@ -25,7 +25,7 @@ body {
 
 /* TEXT */
 .login-box h2 {
-    color: #1b5e20;
+    color: lightgreen;
 }
 
 .login-box p {

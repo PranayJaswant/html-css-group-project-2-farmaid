@@ -1,4 +1,4 @@
-*{
+*body{
     margin: 0;
     padding: 0;
 }
@@ -182,4 +182,7 @@ margin-left: 50px;
     justify-content: space-around;
     margin-top: 20px;
     
+}
+.body{
+    background-color: lightgreen;
 }
