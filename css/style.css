@@ -43,14 +43,13 @@ body{
     color: rgb(13, 13, 15);
 }
 .issue-btn{
-margin-left: 50px;
+margin-left: 80px;
 }
-.weather-btn{
-    margin-left: 50px;
+
     
-}
+
 .btns{
-    margin-left: 40px;
+    margin-left: 150px;
     
 }
 .issue-btn{
@@ -147,7 +146,7 @@ margin-left: 50px;
 }
 .sub-card1{
     border: 1px solid #e0e0e0;
-    background-color: #ffffff;
+    background-color: #e3f2fd; 
     border-radius: 15px;
     padding: 30px 20px;
     width: 250px;
